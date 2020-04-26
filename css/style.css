@@ -1,0 +1,109 @@
+html {
+font-size: 100%;
+
+}
+
+body {
+    background-color: #151515;
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'IBM Plex Sans', sans-serif;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 2.125rem;
+    color: #FFFFFF;
+}
+
+h3 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.875rem;
+    color: #FFFFFF;
+}
+
+h4 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.625rem;
+    color: #FFFFFF;
+}
+
+h5 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.375rem;
+    color: #FFFFFF;
+}
+
+h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 1.125rem;
+    color: #FFFFFF;
+}
+
+p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+
+/*--Navigation--*/
+.navigation {
+    font-family: 'IBM Plex Mono', monospace;
+    font-weight: 400;
+    font-size: 1.125rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    z-index: 100;
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #151515;
+}
+
+.navigation ul {
+    list-style: none;
+    float: right;
+}
+
+.navigation a {
+    color: #FFFFFF;
+    float: left;
+    margin: 1em 2em 1em 2em;
+}
+
+.navigation li {
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+.navigation a:hover {
+    color: #FF6E00;
+    transition: 0.5s;
+}
+
+.navigation a:active {
+    color: #FFFFFF;
+    transition: 0.5s;
+}
+
+.navigation a:focus {
+    color: #FF6E00;
+    outline-width: 0.125em;
+    outline-color: #FF6E00;
+}
